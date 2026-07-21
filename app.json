@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Vantage",
+    "slug": "vantage-fit",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Vantage uses your phone's camera to track full-body form during exercises.",
+        "NSMicrophoneUsageDescription": "Used only if voice commands are enabled for hands-free session control."
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA"]
+    }
+  }
+}
